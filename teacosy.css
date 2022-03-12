@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    color:seashell;
+    padding:0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:22px;
+    opacity:0.9;
+
+}
+    
+body{background-color: black;
+    
+}
+header li{
+    list-style:none;
+    display:inline-block;
+    font-size: 20px;
+    margin:9px;
+    text-decoration: underline;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    padding:9px;
+    max-height: 69px;
+    position:sticky;
+}
+.OurMission{
+    display:flex;
+    justify-content: center;
+}
+.background{
+    width:1200px;
+    height:700px;
+    background-image:url(../Tea-cosy/img/img-mission-background.webp);
+    display:flex;
+    align-items:center;
+}
+.text{
+    background-color: black;
+    width:1200px;
+    height:130px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top: 20px;
+}
+.tea-item2 img{
+    height:200px;
+    width:300px;
+}
+.tea{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin:100px;
+    width:1000px;
+}
+.tea-item1{
+    text-align:center;
+    margin-bottom: 20px;
+}
+.tea-item1 h2{
+    padding:10px;
+}
+.tea-item2{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:15px; 
+}
+.img{
+    text-align: center;
+}
+.locations{
+    display:flex;
+    justify-content:center;
+   
+}
+.bg{
+    background-image:url(../Tea-cosy/img/img-locations-background.webp);
+    width:1200px;
+    height:500px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.loc-item{
+    background-color: black;
+    margin:40px;
+    width:300px;
+    height:250px;
+    padding:20px;
+    text-align:center;
+    opacity: 1;
+}
+.loc-item p{
+    padding:9px;
+}
+.loc-item h3{
+    padding-bottom: 20px;
+}
+footer{
+    margin-top:25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+footer h5{
+    padding: 15px;
+}
+.copy{
+    text-align: left;
+    margin:15px;
+}
