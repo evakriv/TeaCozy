@@ -37,7 +37,7 @@ header{
 .background{
     width:1200px;
     height:700px;
-    background-image:url(../Tea-cosy/img/img-mission-background.webp);
+    background-image:url('img/img-mission-background.webp');
     display:flex;
     align-items:center;
     background-repeat:no-repeat;
@@ -89,7 +89,7 @@ header{
    
 }
 .bg{
-    background-image:url(../Tea-cosy/img/img-locations-background.webp);
+    background-image:url('img/img-locations-background.webp');
     width:100%;
     height:auto;
     display:flex;
